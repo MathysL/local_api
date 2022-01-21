@@ -11,7 +11,7 @@ command needs to be able to clone repositories from Github using an SSH key.
 
 To check if you can already do this try to run the following command from your terminal:
 
-`git clone git@github.com:WincAcademy/local_api.git`
+`git clone git@github.com:MathysL/local_api.git`
 
 If this works you can continue on to installation.
 
@@ -22,7 +22,9 @@ If this does _not_ work you'll get an error like `Could not read from remote rep
 3. give your _public key_ [to Github](https://github.com/settings/keys)
 
 This command should now work:
-`git clone git@github.com:WincAcademy/local_api.git`
+
+or 
+https://github.com/MathysL/local_api.git
 
 [More info on how to clone a repository using the command
 line.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line)
@@ -47,7 +49,7 @@ You can send 4 kinds of HTTP requests to this app.
 
 All but the `delete` requests need to have the content-type header set to
 `application/json`.
-
+`git clone git@github.com:MathysL/local_api.git`
 ### POST
 
 To create an item send a POST request with a JSON object in the body to `/`. The
