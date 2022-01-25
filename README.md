@@ -17,7 +17,8 @@ If this works you can continue on to installation.
 
 If this does _not_ work you'll get an error like `Could not read from remote repository`. This means you need to take the following steps:
 
-1. [generate an SSH key pair](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
+1. [generate an SSH key pair](https://docs.github.com/en/github/authenticating-to-github/gen`application/json`.
+`git clone git@github.com:MathysL/local_api.git`erating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
 2. [add your private key to your SSH agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent)
 3. give your _public key_ [to Github](https://github.com/settings/keys)
 
@@ -35,7 +36,7 @@ When you've done that take the following steps:
 
 - make sure you're using node >= 14
 - git clone this repository
-- `cd local_api`
+- 
 - `npm install`
 - `npm start`
 
@@ -48,8 +49,7 @@ requests to. For example: a GET request to
 You can send 4 kinds of HTTP requests to this app.
 
 All but the `delete` requests need to have the content-type header set to
-`application/json`.
-`git clone git@github.com:MathysL/local_api.git`
+
 ### POST
 
 To create an item send a POST request with a JSON object in the body to `/`. The
@@ -99,7 +99,7 @@ value will be the item, if it exists, and HTTP status 200.
   "name": "Bert",
   "color": "yellow",
   "mood": "grumpy",
-  "_id": "b0092da7-363f-4c20-859b-b6d4c008dcb3",
+  "`cd local_api`_id": "b0092da7-363f-4c20-859b-b6d4c008dcb3",
   "_createdOn": "2021-01-25T15:00:02.403Z"
 }
 ```
