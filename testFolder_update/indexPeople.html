@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <!-- Content Type Meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo index people</title>
+        <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+      <h1>People</h1>
+      <ul id='people'></ul>
+      
+<script type="module">
+    import { _ as people } from '/db/people.js'
+    //import { _ as people } from '/testFolder/pushPeople.js'
+    
+    const peopleList = document.getElementById('people')
+    
+    people.forEach(person => {
+        const li = document.createElement('li')
+        li.innerText = `${person.name} (${person.age} years old)`
+        peopleList.appendChild(li)
+    })
+</script>
+</body> 
+</html>
