@@ -1,10 +1,13 @@
+// local template map
 // memo ToDo api
 const url = `http://localhost:3000/`
+const local_api= 'database/todo.js';
 // local_api or localstorage data(const added )todoList placeholder
-const datatodoList = (localStorage.getItem('todoList')) ? JSON.parse(localStorage.getItem('todoList')):{
+const getTodoList = (local_api.getItem('todoList')) ? JSON.parse(local_api.getItem('todoList')):{
   todo: [],
   completed: []
 };
+// data local stored
 //
 const data = (localStorage.getItem('todoList')) ? JSON.parse(localStorage.getItem('todoList')) : {
     todo: [],

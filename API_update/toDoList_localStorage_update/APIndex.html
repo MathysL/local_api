@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <!--Responsive Viewport Meta tag-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Todo index page</title>
+    <title>Todo list app</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
     <header>
-        <input type="text" placeholder="Enter a toDo activity.. and hit the button =>" id="item">
-        <button type="submit" id="add">
-            save
+        <input type="text" id="item" placeholder="Enter a toDo activity.. and hit the button =>" >
+        <button id="add">
+            .....
             <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                       y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
             <g>
@@ -34,11 +32,20 @@
         <ul class="todo" id="completed"></ul>
     </div>
 
+    <div id="total-list">
+        <input id="inputfield" type="text" placeholder="Voer hier je taak in" />
+        <button id="btn">Voeg taak toe</button>
+    </div>
+    <div>
+        <ul id="todo-list"></ul>
+    </div>
+
     <!-- JavaScripts -->
-    <script src="index.js"></script>
+    <script src="postme.js"></script>
+    <script src="runme.js"></script>
+    <script src="js/main.js"></script>
     <script src="src/app.js"></script>
-    <script src="src/postme.js"></script> 
-    <script src="src/runme.js"></script>
+    <script src="style.js"></script>
 </body>
 
 </html>

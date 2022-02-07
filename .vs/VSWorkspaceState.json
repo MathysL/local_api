@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API_update",
+    "\\API_update\\public",
+    "\\API_update\\public\\resources",
+    "\\API_update\\public\\resources\\js",
+    "\\API_update\\toDoList_localStorage_update",
+    "\\API_update\\toDoList_localStorage_update\\js",
+    "\\API_update\\toDoList_localStorage_update\\src",
+    "\\src",
+    "\\testFolder_update"
+  ],
+  "SelectedNode": "\\testFolder_update\\index.html",
+  "PreviewInSolutionExplorer": false
+}
